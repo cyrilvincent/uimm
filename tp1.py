@@ -18,3 +18,20 @@ print(age % 2)
 # Marquer si vous avez un age pair ou non
 # Marquer si l'année de votre naissance est bisextile
 # Marque votre trange d'age bb <2, enfant <12 ado <18 adulte <62 retraité >62
+if age % 2 == 0:
+    print("Votre age est pair")
+else:
+    print("Votre age est impair")
+if (naissance % 4 == 0 and naissance % 100 != 0) or (naissance % 400 == 0) :
+    print("Vous êtes né une année bisextile")
+if age < 2:
+    print("Vous êtes un BB")
+elif age < 12:
+    print("Vous êtes un enfant")
+elif age < 18:
+    print("Vous êtes un ado")
+elif age < 62:
+    print("Vous êtes un adulte")
+else:
+    print("Vous êtes un retraité")
+

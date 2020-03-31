@@ -25,3 +25,7 @@ if y > x and z > y:
 
 if y > x or z > y:
     print("OR")
+
+i = 0
+i = i + 1
+i += 1

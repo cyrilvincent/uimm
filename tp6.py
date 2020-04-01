@@ -21,4 +21,15 @@ def max(l):
             res = i
     return res
 
-print(max([-2,-1,-3]))
+def min(l):
+    res = 9999999999999
+    for i in l:
+        if i < res:
+            res = i
+    return res
+
+def moyenne(l):
+    return somme(l) / len(l)
+
+print(min(maliste))
+print(moyenne(maliste))

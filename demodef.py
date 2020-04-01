@@ -30,6 +30,7 @@ def printn(n, msg):
 # echo("coucou")
 # print(add(2,3))
 # print(max(2,3))
+# print(fact(5))
 # res = max(2,3)
 # printn(10, "coucou")
 

@@ -33,3 +33,4 @@ def moyenne(l):
 
 print(min(maliste))
 print(moyenne(maliste))
+#toto

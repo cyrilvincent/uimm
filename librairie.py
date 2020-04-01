@@ -26,3 +26,12 @@ def impots(salaire):
     else:
         impots = (27794 - seuil1) * 0.14 + (74517 - 27794) * 0.3 + (157806 - 74517) * 0.41 + (salaire - 157806) * 0.45
     return impots
+
+# fibonacci
+def fibonacci(n):
+    return 0
+
+# fibonacci(0) 0
+# fibonacci(1) 1
+# fibonacci(2) 1
+# fibonacci(16) 987

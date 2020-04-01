@@ -6,4 +6,4 @@
 import librairie
 print(librairie.fact(5))
 print(librairie.sumarithmetique(5))
-print(librairie.impots(30000))
+print(f"Vous allez payer {librairie.impots(30000)}")

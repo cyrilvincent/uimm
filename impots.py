@@ -19,7 +19,7 @@ elif salaire < 157806:
 else:
     impots = (27794 - seuil1) * 0.14 + (74517 - 27794) * 0.3 + (157806 - 74517) * 0.41 + (salaire - 157806) * 0.45
 
-print(f"Impôts {impots}")
+print(f"Impôts {impots:.0f}€")
 reel = impots * 100 / salaire
-print(f"Taux d'imposition {reel}%")
+print(f"Taux d'imposition {reel:.2f}%")
 

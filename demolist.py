@@ -17,8 +17,9 @@ def somme(l):
     res = 0
     for i in l:
         res = res + i
+        print(i, res)
     return res
 
 print(somme(maliste))
-print(somme(range(10000)))
-print(len(range(10000)))
+# print(somme(range(10000)))
+# print(len(range(10000)))

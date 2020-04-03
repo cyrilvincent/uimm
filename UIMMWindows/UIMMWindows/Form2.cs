@@ -54,5 +54,22 @@ namespace UIMMWindows
                 return true;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = true;
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string pwd = textBox3.Text;
+            if (pwd == "toto")
+            {
+                Form1 f1 = new Form1();
+                this.Visible = false;
+                f1.Show();
+            }
+        }
     }
 }

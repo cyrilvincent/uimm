@@ -14,3 +14,44 @@
 # cryptage(100,7) => 700
 # cryptage(100,8) => -1
 # decryptage(700, 7) => 100
+
+# range(2,5) => 2,3,4
+
+def estPremier(n):
+    if n < 2:
+        return 0
+    else:
+        for i in range(2,n):
+            if n % i == 0:
+                return 0
+        return 1
+
+def affichePremiers(n):
+    for i in range(2,n):
+        if estPremier(i) == 1:
+            print(i)
+
+def cryptage(msg, key):
+    if estPremier(key):
+        return msg * key
+    else:
+        return -1
+
+def decryptage(msg, key):
+    if estPremier(key):
+        return msg/key
+    else:
+        return -1
+
+s ="toto toto "
+res = s.replace(" ","")
+print(res)
+print(estPremier(2))
+affichePremiers(6700417)
+
+message = 100
+key = 6700417
+messagecrypte = cryptage(message, key)
+print(messagecrypte)
+message = decryptage(messagecrypte, key)
+print(message)

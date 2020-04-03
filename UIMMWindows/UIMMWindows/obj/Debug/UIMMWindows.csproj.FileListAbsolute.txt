@@ -9,3 +9,4 @@ C:\Users\conta\CVC\ATP\uimm\UIMMWindows\UIMMWindows\obj\Debug\UIMMWindows.csproj
 C:\Users\conta\CVC\ATP\uimm\UIMMWindows\UIMMWindows\obj\Debug\UIMMWindows.exe
 C:\Users\conta\CVC\ATP\uimm\UIMMWindows\UIMMWindows\obj\Debug\UIMMWindows.pdb
 C:\Users\conta\CVC\ATP\uimm\UIMMWindows\UIMMWindows\obj\Debug\UIMMWindows.Form2.resources
+C:\Users\conta\CVC\ATP\uimm\UIMMWindows\UIMMWindows\obj\Debug\UIMMWindows.Form3.resources

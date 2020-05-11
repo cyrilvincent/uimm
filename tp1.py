@@ -31,7 +31,9 @@ elif age < 62:
 else:
     print("Vous êtes un retraité")
 
-if (birth % 4 == 0 and not birth % 100 == 0) or (birth % 400 == 0):
+if (birth % 4 == 0 and not birth % 100 == 0) or birth % 400 == 0:
     print("Vous êtes né une année bissextile")
 else:
     print("Vous êtes né une année non bissextile")
+
+

@@ -10,3 +10,7 @@ age = year - birth
 print(f"Vous avez {age} ans")
 print(f"L'année prochaine vous aurez {age + 1} ans")
 print(age % 2)
+
+# Afficher si votre age est pair ou impair
+# Afficher votre catégorie d'age (<2 BB, <12 Enfant, < 18 Ado, <62 Adulte, Retraité)
+# Affichée si votre année de naissance est bissextile d'après wikipedia

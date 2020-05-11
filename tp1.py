@@ -4,5 +4,9 @@
 # Afficher votre age de l'année en cours (year)
 # Afficher votre age de l'année prochaine
 # Afficher le modulo 2 de votre age
-x = 18
-print(f"Vous avez {x} ans")
+year = 2020
+birth = int(input("Veuillez saisir votre année de naissance: "))
+age = year - birth
+print(f"Vous avez {age} ans")
+print(f"L'année prochaine vous aurez {age + 1} ans")
+print(age % 2)

@@ -13,13 +13,13 @@ with open("house.csv") as f:
     surfaces = []
     loyers = []
     for row in reader:
-        s = int(row["surface"])
-        l = int(row["loyer"])
+        s = float(row["surface"])
+        l = float(row["loyer"])
         surfaces.append(s)
         loyers.append(l)
 print(surfaces)
 print(loyers)
 
 plt.scatter(surfaces, loyers)
-#plt.bar(surfaces, loyers)
+#plt.plot(surfaces, loyers)
 plt.show()

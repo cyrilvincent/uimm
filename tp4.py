@@ -20,3 +20,59 @@
 # Faire la fonction calcImpots(revenuNet) => montant à payer
 # Puis calculer le % réel d'impôts
 
+def isPrime(x):
+    if x < 2:
+        return False
+    else:
+        for i in range(2,x):
+            if x % i == 0:
+                return False
+        return True
+
+print(isPrime(7919))
+print(isPrime(8))
+for i in range(2,1000):
+    if isPrime(i) == True:
+        print(i)
+
+def fibonacci(x):
+    if x == 0:
+        return 0
+    elif x == 1:
+        return 1
+    else:
+        res1 = 1
+        res2 = 0
+        for i in range(2, x+1):
+            res = res1 + res2
+            res2 = res1
+            res1 = res
+        return res
+
+print(fibonacci(16))
+
+def calcImpots(salaire):
+    if salaire < 10064:
+        return 0
+    elif salaire < 27794:
+        return (salaire - 10064) * 0.14
+    elif salaire < 74517:
+        return (27794 - 10064) * 0.14 + (salaire - 27794) * 0.3
+    elif salaire < 157806:
+        return (27794 - 10064) * 0.14 + (74517 - 27794) * 0.3 + (salaire - 74517) * 0.41
+    else:
+        return (27794 - 10064) * 0.14 + (74517 - 27794) * 0.3 + (157806 - 74517) * 0.41 + (salaire - 157806) * 0.45
+
+impots = calcImpots(1219 * 12 * 0.8)
+print(impots, (impots / (1219*12)) * 100)
+impots = calcImpots(2000 * 12 * 0.8)
+print(impots, (impots / (2000*12)) * 100)
+impots = calcImpots(3500 * 12 * 0.8)
+print(impots, (impots / (3500*12)) * 100)
+impots = calcImpots(10000 * 12 * 0.8)
+print(impots, (impots / (10000*12)) * 100)
+impots = calcImpots(15000 * 12 * 0.8)
+print(impots, (impots / (15000*12)) * 100)
+
+
+

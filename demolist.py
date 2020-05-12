@@ -16,3 +16,13 @@ def sum(l):
 print(sum(l1))
 print(sum([1,2,3]))
 
+print(l1)
+l1.append(999)
+l1.insert(2,888)
+l1.remove(12)
+print(l1)
+l1.count(888)
+print(l1)
+print(l1.count(888))
+
+

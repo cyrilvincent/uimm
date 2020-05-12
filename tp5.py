@@ -3,4 +3,31 @@
 # Créer la fonction average(l) => la moyenne, en sachant que len(l) => longueur
 # Créer la fonction min(l) => min
 # Créer la fonction max(l) => max
-# Reprise à 10h45
+
+def sum(l):
+    res = 0
+    for val in l:
+        res += val
+    return res
+
+def average(l):
+    return sum(l)/len(l)
+
+def max(l):
+    res = l[0]
+    for val in l:
+        if val > res:
+            res = val
+    return res
+
+def max(l):
+    res = l[0]
+    for val in l:
+        if val < res:
+            res = val
+    return res
+
+l1 = [1,0,2,5,99,-5,7,-80,63,10]
+print(sum(l1))
+print(average(l1))
+print(max(l1))

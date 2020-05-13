@@ -16,5 +16,12 @@ namespace FormationWindows
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DateTime birth = dateTimePicker1.Value;
+            TimeSpan age = DateTime.Now - birth;
+            label2.Text += (age.TotalDays / 365).ToString();
+        }
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\bin\Debug\FormationWindows.exe.config
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\bin\Debug\FormationWindows.exe
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\bin\Debug\FormationWindows.pdb
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.csprojAssemblyReference.cache
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.Form1.resources
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.Properties.Resources.resources
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.csproj.GenerateResource.cache
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.csproj.CoreCompileInputs.cache
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.exe
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.pdb
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.Form2.resources
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.Form3.resources
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.Form4.resources

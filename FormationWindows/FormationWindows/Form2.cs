@@ -22,5 +22,11 @@ namespace FormationWindows
             Form3 f = new Form3();
             f.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 f = new Form4();
+            f.Show();
+        }
     }
 }

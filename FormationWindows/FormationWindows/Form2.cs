@@ -34,5 +34,11 @@ namespace FormationWindows
             Form5 f = new Form5();
             f.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form6 f = new Form6();
+            f.Show();
+        }
     }
 }

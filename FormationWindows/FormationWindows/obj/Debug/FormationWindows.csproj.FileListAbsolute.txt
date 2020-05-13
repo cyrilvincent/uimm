@@ -12,3 +12,4 @@ C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\
 C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.Form3.resources
 C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.Form4.resources
 C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.Form5.resources
+C:\Users\conta\CVC\ATP\uimm\EnCours\FormationWindows\FormationWindows\obj\Debug\FormationWindows.Form6.resources
